@@ -9,13 +9,13 @@ export default {
     theme: {
         extend: {
             animation: {
-                fadeInDown: 'fadeInDown 0.6s ease-out forwards',
+                fadeInDown: 'fadeInDown 0.6s ease-out forwards'
             },
             keyframes: {
                 fadeInDown: {
                     '0%': {
                         opacity: 0,
-                        transform: 'translateY(-20px)',
+                        transform: 'translateY(-20px)'
                     },
                     '100%': {
                         opacity: 1,
